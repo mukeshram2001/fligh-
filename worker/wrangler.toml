@@ -1,0 +1,15 @@
+name = "flight-delay-predictor-worker"
+main = "worker.js"
+compatibility_date = "2023-12-01" # Or a more recent date
+
+# Example of how you might set environment variables for API keys in Cloudflare:
+# [vars]
+# GEMINI_API_KEY_WORKER = "YOUR_WORKER_SPECIFIC_GEMINI_KEY_IF_ANY"
+# FLIGHT_API_SECRET = "YOUR_FLIGHT_API_SECRET"
+# WEATHER_API_KEY = "YOUR_WEATHER_API_KEY"
+
+# You can also add routes here if deploying to a custom domain,
+# or configure them in the Cloudflare dashboard.
+# [[routes]]
+# pattern = "your-app-domain.com/api/*"
+# zone_name = "your-app-domain.com"

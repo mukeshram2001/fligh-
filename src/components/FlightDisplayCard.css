@@ -1,0 +1,72 @@
+.flight-display-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.flight-display-card h3, .flight-display-card h4 {
+  color: #2c3e50;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.flight-display-card h4 {
+  margin-top: 15px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
+
+
+.flight-display-card p {
+  margin: 5px 0;
+  line-height: 1.6;
+}
+
+.delay-probability-display {
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.probability-value {
+  font-size: 2.5em;
+  font-weight: bold;
+  display: block;
+}
+
+.probability-label {
+  font-size: 1em;
+  color: #555;
+  display: block;
+}
+
+/* Risk Colors */
+.flight-display-card.green-risk {
+  border-left: 5px solid #2ecc71; /* Green */
+}
+.flight-display-card .color-green {
+  color: #2ecc71;
+}
+
+.flight-display-card.yellow-risk {
+  border-left: 5px solid #f1c40f; /* Yellow */
+}
+.flight-display-card .color-yellow {
+  color: #f1c40f;
+}
+
+.flight-display-card.red-risk {
+  border-left: 5px solid #e74c3c; /* Red */
+}
+.flight-display-card .color-red {
+  color: #e74c3c;
+}
+
+.flight-display-card .color-grey {
+  color: #7f8c8d; /* Grey for N/A */
+}
